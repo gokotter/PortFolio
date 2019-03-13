@@ -5,6 +5,10 @@
 <title>PortFolio</title>
 
 
+<link rel="stylesheet" href="/port/res/css/main.css" />
+<noscript><link rel="stylesheet" href="/port/res/css/noscript.css" /></noscript>
+
+
 <!-- Scripts -->
 <script src="/port/res/js/jquery.min.js"></script>
 <script src="/port/res/js/jquery.scrollex.min.js"></script>
@@ -15,8 +19,3 @@
 <script src="/port/res/js/main.js"></script>
 
 
-
-<link rel="stylesheet" href="/port/res/css/main.css" />
-<noscript>
-	<link rel="stylesheet" href="/port/res/css/noscript.css" />
-</noscript>

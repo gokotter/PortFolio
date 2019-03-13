@@ -1,4 +1,4 @@
-package kr.co.port;
+package kr.co.port.Controller;
 
 import java.text.DateFormat;
 import java.util.Date;
@@ -34,6 +34,11 @@ public class HomeController {
 		model.addAttribute("serverTime", formattedDate );
 		
 		return "home";
+	}
+	
+	@RequestMapping(value = "/Generic", method = RequestMethod.GET)
+	public String generic(Locale locale, Model model) {
+		return "Generic";
 	}
 	
 }
